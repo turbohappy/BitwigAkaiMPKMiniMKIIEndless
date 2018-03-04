@@ -9,7 +9,6 @@ host.defineMidiPorts(1, 1);
 host.addDeviceNameBasedDiscoveryPair(["MPK mini mkII"], ["MPK mini mkII"]);
 host.addDeviceNameBasedDiscoveryPair(["MPKmini2"], ["MPKmini2"]);
 
-
 String.prototype.getBytes = function () {
   var bytes = [];
   for (var i = 0; i < this.length; ++i) {
